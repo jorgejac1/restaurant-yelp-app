@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+
+# Production build folder
+/build
+
+# dotenv environment variable files
+.env

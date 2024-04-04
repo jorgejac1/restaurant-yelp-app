@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .ratingStars {
+    align-self: flex-start;
+    text-align: left;
+    margin: 0 0 5px 0;
+  }
+
+  .ratingStars {
+    grid-row: 2;
+  }
+}

@@ -1,0 +1,29 @@
+@keyframes loading {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1); }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3); }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1); } }
+
+.skeletonCard {
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+  gap: 10px;
+  align-items: center; }
+
+.skeletonImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  animation: loading 1.5s infinite; }
+
+.skeletonContent {
+  flex-grow: 1; }
+
+.skeletonText {
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  animation: loading 1.5s infinite; }
