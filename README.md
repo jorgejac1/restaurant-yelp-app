@@ -39,8 +39,13 @@ The client is built with React and uses React Hooks for state management. It com
 To set up the client side of the project, follow these steps:
 
 1. Navigate to the `client` directory: `cd client`
-2. Install the dependencies: `npm install`
-3. Start the application: `npm start`
+2. If using `nvm`, you can install Node 16 by running:
+   ```
+   nvm install 16
+   nvm use 16
+   ```
+3. Install the dependencies: `npm install`
+4. Start the application: `npm start`
 
 This will launch the application on `http://localhost:3000` by default.
 
